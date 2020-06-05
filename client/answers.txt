@@ -1,0 +1,26 @@
+1. Explain how to build stateful class components.
+
+Define a state in the constructor. Could also reset the value using this.setState method.
+
+
+2. Describe the different phases of the component lifecycle.
+
+Mounting - the component is built out from the ground up
+
+Updating phase - the component's data is changed
+
+Unmounting phase - the component is removed from the screen
+
+
+3. Demonstrate an understanding of class component lifecycle methods.
+
+Those methods are invoked at different phases of the component's lifecycle
+for example componentWillMount is invoked before the render
+componentDidMount runs after the component output has been rendered to the dom
+componentWillUnmount() defines what do to after the component is removed from the dom
+
+4. Define stateful logic.
+
+Business logic. The logic of an app related to state.
+
+5. Describe how to test a React component with React Testing Library.
